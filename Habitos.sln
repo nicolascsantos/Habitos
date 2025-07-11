@@ -15,7 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{188F3D09-B4B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4447D7B0-8BB3-44FE-94D8-0ED5395609CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Habitos.UnitTests", "Habitos.UnitTests\Habitos.UnitTests.csproj", "{28FF9B7F-8F88-4C18-95A2-77646850D7D2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FF9B7F-8F88-4C18-95A2-77646850D7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FF9B7F-8F88-4C18-95A2-77646850D7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FF9B7F-8F88-4C18-95A2-77646850D7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FF9B7F-8F88-4C18-95A2-77646850D7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -24,6 +36,7 @@ Global
 		{4C417768-4B30-4E59-A409-4C805C5ECB09} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{188F3D09-B4B6-4EF1-BB99-6875D32C9DB7} = {8902C0BD-F5D3-456B-94AD-9663B0D34D85}
 		{4447D7B0-8BB3-44FE-94D8-0ED5395609CD} = {8902C0BD-F5D3-456B-94AD-9663B0D34D85}
+		{28FF9B7F-8F88-4C18-95A2-77646850D7D2} = {4C417768-4B30-4E59-A409-4C805C5ECB09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DD14D267-9F94-4535-BDAA-6754D9F6D18E}
