@@ -2,6 +2,7 @@
 
 namespace Habitos.UnitTests.Domain.Habit
 {
+    [CollectionDefinition(nameof(HabitTestFixtureCollection))]
     public class HabitTestFixtureCollection : ICollectionFixture<HabitTestFixture>
     {}
 

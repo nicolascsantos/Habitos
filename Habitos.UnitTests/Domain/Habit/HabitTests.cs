@@ -2,6 +2,7 @@
 
 namespace Habitos.UnitTests.Domain.Habit
 {
+    [Collection(nameof(HabitTestFixture))]
     public class HabitTests
     {
         private readonly HabitTestFixture _fixture;
