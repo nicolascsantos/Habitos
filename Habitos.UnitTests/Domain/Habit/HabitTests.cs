@@ -21,6 +21,7 @@ namespace Habitos.UnitTests.Domain.Habit
                 habit.Name,
                 habit.Description,
                 habit.Frequency,
+                habit.WeekDays,
                 habit.StartDate,
                 habit.EndDate,
                 habit.IsActive
@@ -31,6 +32,7 @@ namespace Habitos.UnitTests.Domain.Habit
             newHabit.Id.Should().NotBe(default(Guid));
             newHabit.Name.Should().Be(habit.Name);
             newHabit.Description.Should().Be(habit.Description);
+            newHabit.WeekDays.Should().BeEquivalentTo(habit.WeekDays);
             newHabit.Frequency.Should().Be(habit.Frequency);
             newHabit.StartDate.Should().Be(habit.StartDate);
             newHabit.EndDate.Should().Be(habit.EndDate);
